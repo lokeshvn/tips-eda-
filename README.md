@@ -67,15 +67,46 @@ The analysis performs the following steps:
 
 ## Screenshots
 
-All plots generated in the analysis are saved in the `screenshots/` folder:
+## Screenshots and insights
 
-- `screenshots/pic1.png` – Total bill distribution (histogram).  
-- `screenshots/pic2.png` – Tip amount by day (boxplot).  
-- `screenshots/pic3.png` – Total bill vs tip with regression line.  
-- `screenshots/pic4.png` – Average tip percentage by smoker status.  
-- `screenshots/pic5.png` – Average tip percentage by time (lunch vs dinner). [web:97][web:98]
+### 1. Total bill distribution
 
-You can view them directly on GitHub under the `screenshots` directory.
+![Total bill distribution](screenshots/pic1.png)
+
+Most total bills fall roughly between 10 and 20 units, with relatively few very small or very large bills. This indicates a typical spending range for most customers around that mid‑range. [web:39][web:22]
+
+---
+
+### 2. Tip amount by day
+
+![Tip amount by day](screenshots/pic2.png)
+
+The median tip appears highest on Sunday, and both Saturday and Sunday show a wider spread of tips with more high-value outliers. This suggests weekends, especially Sunday, tend to have larger or more generous tipping. [web:39][web:41]
+
+---
+
+### 3. Total bill vs tip with regression
+
+![Total bill vs tip with regression](screenshots/pic3.png)
+
+There is a clear positive relationship between total bill and tip, as shown by the upward-sloping regression line. Higher bills are generally associated with higher tips, although the spread indicates variability in individual tipping behavior. [web:39][web:31]
+
+---
+
+### 4. Average tip percentage by smoker status
+
+![Average tip percentage by smoker status](screenshots/pic4.png)
+
+Smokers show a slightly higher average tip percentage compared to non‑smokers in this dataset. The difference is not huge but suggests smokers may tip a bit more relative to their bill size on average. [web:39][web:22]
+
+---
+
+### 5. Average tip percentage by time (lunch vs dinner)
+
+![Average tip percentage by time](screenshots/pic5.png)
+
+Lunch has a higher average tip percentage than dinner, even though dinner bills may be larger in absolute terms. This indicates lunch customers tend to leave a bigger share of their bill as tips compared to dinner customers. [web:39][web:23]
+
 
 ## Dataset
 
